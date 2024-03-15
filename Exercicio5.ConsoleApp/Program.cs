@@ -4,16 +4,36 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Calculo do volumo da esfera");
-            Console.WriteLine("Informe o tamanho do raio");
-            double raio = Convert.ToDouble(Console.ReadLine());
+            while (true)
+            {
+                Console.WriteLine("Calculo do volumo da esfera");
 
-            double PI = 3.14;
+                Console.WriteLine("Informe o tamanho do raio");
+                double raio = Convert.ToDouble(Console.ReadLine());
 
-            double volume = 4 / 3 * PI * raio;
+                double PI = 3.14;
 
-            Console.WriteLine("O volume da esfera é : " + Math.Round(volume,2));
-            Console.ReadLine();
+                double volume = 4 / 3 * PI * (raio * raio * raio);
+
+                Console.WriteLine("O volume da esfera é : " + Math.Round(volume,2));
+                Console.WriteLine("Digite S para sair e N para voltar ao inicio");
+
+                String sair = Console.ReadLine();
+
+                if (sair == "S")
+                {
+
+                    break;
+
+                }
+                if (sair == "N")
+                {
+
+                    continue;
+                }
+
+                Console.ReadLine();
+            }
         }
     }
 }
