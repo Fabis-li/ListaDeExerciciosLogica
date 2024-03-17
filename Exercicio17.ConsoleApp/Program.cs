@@ -25,7 +25,7 @@
                 }
                 else
                 {
-                    Console.WriteLine("A soma de A + B e maior do que C\n");
+                    Console.WriteLine("A soma de A + B e maior do que C.\n");
                 }
 
                 Console.WriteLine("Digite S para sair e N para voltar ao inicio");
