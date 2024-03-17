@@ -45,19 +45,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio12.ConsoleApp", "E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercicio12", "Exercicio12", "{241ED703-D28D-4E3A-81CF-91B5134DA85B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio13.ConsoleApp", "Exercicio13.ConsoleApp\Exercicio13.ConsoleApp.csproj", "{2F0E2FD2-0844-402B-956E-437C155C39B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio13.ConsoleApp", "Exercicio13.ConsoleApp\Exercicio13.ConsoleApp.csproj", "{2F0E2FD2-0844-402B-956E-437C155C39B7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercicio13", "Exercicio13", "{7A77B6E1-8063-4AB3-B037-905041058E5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio14.ConsoleApp", "Exercicio14.ConsoleApp\Exercicio14.ConsoleApp.csproj", "{BFE3A142-546E-4869-9801-12696CA12CD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio14.ConsoleApp", "Exercicio14.ConsoleApp\Exercicio14.ConsoleApp.csproj", "{BFE3A142-546E-4869-9801-12696CA12CD6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercicio14", "Exercicio14", "{770B8234-D228-4438-937F-F864C77C5825}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio16.ConsoleApp", "Exercicio16.ConsoleApp\Exercicio16.ConsoleApp.csproj", "{CCD8889E-EFA9-4B01-879E-E30881717559}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio16.ConsoleApp", "Exercicio16.ConsoleApp\Exercicio16.ConsoleApp.csproj", "{CCD8889E-EFA9-4B01-879E-E30881717559}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercicio16", "Exercicio16", "{9834C03F-C143-4C88-B751-1834B81A929B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio17.ConsoleApp", "Exercicio17.ConsoleApp\Exercicio17.ConsoleApp.csproj", "{356D13F9-3F65-4779-910F-6D3B8C28A1EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio17.ConsoleApp", "Exercicio17.ConsoleApp\Exercicio17.ConsoleApp.csproj", "{356D13F9-3F65-4779-910F-6D3B8C28A1EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercicio17", "Exercicio17", "{F0CF86AB-CBED-4A83-82E3-8756F27ABEEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio18.ConsoleApp", "Exercicio18.ConsoleApp\Exercicio18.ConsoleApp.csproj", "{2373D796-D815-41C8-AB8A-48AB8EBA4725}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercicio18", "Exercicio18", "{2039797F-0177-4140-8359-F2E5F61A0293}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,6 +131,10 @@ Global
 		{356D13F9-3F65-4779-910F-6D3B8C28A1EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{356D13F9-3F65-4779-910F-6D3B8C28A1EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{356D13F9-3F65-4779-910F-6D3B8C28A1EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2373D796-D815-41C8-AB8A-48AB8EBA4725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2373D796-D815-41C8-AB8A-48AB8EBA4725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2373D796-D815-41C8-AB8A-48AB8EBA4725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2373D796-D815-41C8-AB8A-48AB8EBA4725}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -143,6 +153,8 @@ Global
 		{2F0E2FD2-0844-402B-956E-437C155C39B7} = {7A77B6E1-8063-4AB3-B037-905041058E5B}
 		{BFE3A142-546E-4869-9801-12696CA12CD6} = {770B8234-D228-4438-937F-F864C77C5825}
 		{CCD8889E-EFA9-4B01-879E-E30881717559} = {9834C03F-C143-4C88-B751-1834B81A929B}
+		{356D13F9-3F65-4779-910F-6D3B8C28A1EF} = {F0CF86AB-CBED-4A83-82E3-8756F27ABEEA}
+		{2373D796-D815-41C8-AB8A-48AB8EBA4725} = {2039797F-0177-4140-8359-F2E5F61A0293}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A7CD5F04-A3C2-48AF-8E92-420D57F2670A}
