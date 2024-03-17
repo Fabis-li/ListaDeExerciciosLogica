@@ -65,17 +65,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio18.ConsoleApp", "E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercicio18", "Exercicio18", "{2039797F-0177-4140-8359-F2E5F61A0293}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio19.ConsoleApp", "Exercicio19.ConsoleApp\Exercicio19.ConsoleApp.csproj", "{07B0B70E-58A9-444F-B565-DFB4FD883DDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio19.ConsoleApp", "Exercicio19.ConsoleApp\Exercicio19.ConsoleApp.csproj", "{07B0B70E-58A9-444F-B565-DFB4FD883DDE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercicio19", "Exercicio19", "{7AAC96A2-91D7-44CA-8AC3-99A864EFDCF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio20.ConsoleApp", "Exercicio20.ConsoleApp\Exercicio20.ConsoleApp.csproj", "{9579A4AC-BEDD-4733-AF08-235618EEE6D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio20.ConsoleApp", "Exercicio20.ConsoleApp\Exercicio20.ConsoleApp.csproj", "{9579A4AC-BEDD-4733-AF08-235618EEE6D8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercicio20", "Exercicio20", "{F734918E-C649-4890-96A8-8DE1FA1FFC51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio21.ConsoleApp", "Exercicio21.ConsoleApp\Exercicio21.ConsoleApp.csproj", "{344FBA0A-B6F8-4F40-AB8F-D36BB539C001}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio21.ConsoleApp", "Exercicio21.ConsoleApp\Exercicio21.ConsoleApp.csproj", "{344FBA0A-B6F8-4F40-AB8F-D36BB539C001}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercicio21", "Exercicio21", "{C157C259-8F4C-4AEB-BF4C-31C30BB07BFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio22.ConsoleApp", "Exercicio22.ConsoleApp\Exercicio22.ConsoleApp.csproj", "{E0A14408-2E51-4706-9E14-796E209C4219}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercicio22", "Exercicio22", "{CDF469C0-95CB-47F9-9250-DF1D78058B67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +163,10 @@ Global
 		{344FBA0A-B6F8-4F40-AB8F-D36BB539C001}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{344FBA0A-B6F8-4F40-AB8F-D36BB539C001}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{344FBA0A-B6F8-4F40-AB8F-D36BB539C001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0A14408-2E51-4706-9E14-796E209C4219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0A14408-2E51-4706-9E14-796E209C4219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0A14408-2E51-4706-9E14-796E209C4219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0A14408-2E51-4706-9E14-796E209C4219}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -182,6 +190,7 @@ Global
 		{07B0B70E-58A9-444F-B565-DFB4FD883DDE} = {7AAC96A2-91D7-44CA-8AC3-99A864EFDCF7}
 		{9579A4AC-BEDD-4733-AF08-235618EEE6D8} = {F734918E-C649-4890-96A8-8DE1FA1FFC51}
 		{344FBA0A-B6F8-4F40-AB8F-D36BB539C001} = {C157C259-8F4C-4AEB-BF4C-31C30BB07BFA}
+		{E0A14408-2E51-4706-9E14-796E209C4219} = {CDF469C0-95CB-47F9-9250-DF1D78058B67}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A7CD5F04-A3C2-48AF-8E92-420D57F2670A}
