@@ -9,37 +9,37 @@
             double nota = Convert.ToDouble(Console.ReadLine());
                 
 
-            double notas = 0;
+            double notas = nota;
             double qtdeNotas = 0;
             double resultado = 0;
 
             while (true)
             {
-
                 Console.WriteLine("Deseja digitar mais uma nota? (s/n)");
                 string digitarMaisNotas = Console.ReadLine();
                 qtdeNotas++;
                 
-
-                if(digitarMaisNotas == "s")
-                {                   
+                while(digitarMaisNotas == "s" )
+                {
                     Console.WriteLine("Digite a nota do aluno");
                     double novaNota = Convert.ToDouble(Console.ReadLine());
-                    notas = nota + novaNota;
-                    qtdeNotas++;                    
-                    
-                }
+                    notas += novaNota;
+                    qtdeNotas += 1;
+                    Console.WriteLine("Digitar mais notas? (s/n)");
+                    digitarMaisNotas = Console.ReadLine();
 
-                if(digitarMaisNotas == "n")
-                {
-                    break;
-                }
+                }                
 
-                if(qtdeNotas > 0)
+                if(digitarMaisNotas == "n" && qtdeNotas > 0)
                 {
                     resultado = notas / qtdeNotas;
                     Console.WriteLine(resultado);
+                    //break;
                 }
+
+               // if(qtdeNotas > 0)
+                //{
+                //}
 
                 Console.WriteLine("Digite S para sair e N para voltar ao inicio");
 
