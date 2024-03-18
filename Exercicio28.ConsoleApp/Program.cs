@@ -18,7 +18,7 @@
                     {
                         int resultado = numero * numero2;
 
-                        Console.WriteLine(numero + " x " + numero2 + " = " + resultado + "\t");
+                        Console.WriteLine(numero + " x " + numero2 + " = " + resultado);
 
                         numero2++;
 
