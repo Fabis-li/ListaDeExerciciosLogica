@@ -7,39 +7,69 @@
             while(true)
             {
                 Console.WriteLine("Calcular o volume de uma caixa retangular\n");
-            
-                Console.WriteLine("Digite um comprimento");
-                double comprimento = Convert.ToDouble(Console.ReadLine());
 
-                Console.WriteLine("Digite a largura");
-                double largura = Convert.ToDouble(Console.ReadLine());
+                double comprimento = ObterNumeroDouble("Digite um comprimento");
 
-                Console.WriteLine("Digite a altura");
-                double altura = Convert.ToDouble(Console.ReadLine());
+                double largura = ObterNumeroDouble("Digite um comprimento");
 
-                double volume = comprimento * largura * altura;
+                double altura = ObterNumeroDouble("Digite um comprimento");
 
-                Console.WriteLine("O volume da caixa retangular é: " + volume);
-                Console.ReadLine();
+                double volume = CalcularVolume(comprimento, largura, altura);
 
-                Console.WriteLine("Digite S para sair e N para voltar ao inicio");
+                ExibirResultado(volume);
 
-                String sair = Console.ReadLine();
+               string opcao = MenuSair();
 
-                if (sair == "S")
+                if (OpcaoSelecionada(opcao));
                 {
-
                     break;
-
                 }
-                if (sair == "N")
+                if (OpcaoContinuar(opcao)) ;
                 {
-
+                    Console.Clear();
                     continue;
                 }
 
             }
 
-        }
+            static double ObterNumeroDouble(string texto)
+            {
+                Console.WriteLine(texto);
+
+                double numeroDigitado = Convert.ToDouble(Console.ReadLine());
+
+                return numeroDigitado;
+            }
+
+            static double CalcularVolume(double comprimento, double largura, double altura)
+            {
+                return comprimento * largura * altura;
+            }
+
+            static void ExibirResultado(double volume)
+            {
+                Console.WriteLine("O volume da caixa retangular é: " + volume);
+                Console.ReadLine();
+            }
+
+            static string MenuSair()
+            {
+                Console.Write("Digite S para sair e N para voltar ao inicio");
+                string opcao = Console.ReadLine();
+                return opcao;
+            }
+
+            static bool OpcaoSelecionada(string opcao)
+            {
+                bool opcaoSelecionada = opcao == "S" || opcao == "s";
+                return opcaoSelecionada;
+            }
+
+            static bool OpcaoContinuar(string opcao)
+            {
+                bool opcaoSelecionada = opcao == "N" || opcao == "s";                
+                return opcaoSelecionada;
+            }
+        }        
     }
 }
