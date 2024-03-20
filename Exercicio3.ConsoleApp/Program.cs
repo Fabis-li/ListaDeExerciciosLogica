@@ -5,18 +5,32 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Calcular volume de um cilindro\n");
+            
+            double raio = ObterDadosEntrada("Digite o raio da cilindro");
+            
+            double altura = ObterDadosEntrada("Digite a altura do cilindro");
 
-            Console.WriteLine("Digite o raio da cilindro");
-            double raio = Convert.ToDouble(Console.ReadLine());
+            double volume = CalcularVolume(raio, altura);
 
-            Console.WriteLine("Digite a altura do cilindro");
-            double altura = Convert.ToDouble(Console.ReadLine());
+            ExibirResultado(volume);
+        }
 
-            double PI = 3.14;
+        static double ObterDadosEntrada(string texto)
+        {
+            Console.WriteLine(texto);
+            double numeroDigitado = Convert.ToDouble(Console.ReadLine());
 
-            double volume = PI * (raio * raio) * altura;
+            return numeroDigitado;
+        }
 
-            Console.WriteLine("O Volume do Cilindro é: " + Math.Round(volume,2));  
+        static double CalcularVolume(double raio, double altura)
+        {
+            return Math.PI * (raio * raio) * altura;
+        }
+
+        static void ExibirResultado(double volume)
+        {
+            Console.WriteLine("O Volume do Cilindro é: " + Math.Round(volume, 2));
             Console.ReadLine();
         }
     }
