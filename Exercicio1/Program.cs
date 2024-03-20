@@ -10,9 +10,9 @@
 
                 double comprimento = ObterNumeroDouble("Digite um comprimento");
 
-                double largura = ObterNumeroDouble("Digite um comprimento");
+                double largura = ObterNumeroDouble("Digite uma largura");
 
-                double altura = ObterNumeroDouble("Digite um comprimento");
+                double altura = ObterNumeroDouble("Digite um altura");
 
                 double volume = CalcularVolume(comprimento, largura, altura);
 
@@ -54,7 +54,7 @@
 
             static string MenuSair()
             {
-                Console.Write("Digite S para sair e N para voltar ao inicio");
+                Console.WriteLine("Digite S para sair e N para voltar ao inicio");
                 string opcao = Console.ReadLine();
                 return opcao;
             }
